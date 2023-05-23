@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: silver;
+    padding: 20px;
+}
+
+.todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 750px;
+    margin: 0 auto;
+}
+
+input {
+    font-size: 20px;
+    border: 2px solid teal;
+    height: 40px;
+    width: 500px;
+    padding-left: 5px;
+}
+
+#create_button {
+    width: 240px;
+    height: 40px;
+    border: 2px solid teal;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+#todo_list {
+    margin: 0 auto;
+    width: 750px;
+}
+
+
+.block_text {
+    width: 750px;
+    border: 2px solid teal;
+    padding: 8px;
+    margin-top: 10px;
+    word-break: break-all;
+}
+
+p {
+    font-weight: 700;
+    font-size: 28px;
+    font-family: "Comic Sans MS", sans-serif;
+    width: 730px;
+    margin-bottom: 5px;
+}
+
+.todoElement {
+    display: flex;
+    align-items: center;
+    gap: 0 30px;
+}
+
+.delButton {
+    padding: 5px;
+    font-family: "Comic Sans MS", sans-serif;
+    margin-right: 10px;
+    background-color: #9a2121;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+.editButton {
+    padding: 5px;
+    border: none;
+    font-family: "Comic Sans MS", sans-serif;
+    margin-right: 10px;
+    cursor: pointer;
+    background-color: #afbb20;
+}
+
+.delButton:hover {
+    background-color: #540505;
+    transition-duration: 300ms;
+}
+.editButton:hover {
+    background-color: #707a05;
+    transition-duration: 300ms;
+}
