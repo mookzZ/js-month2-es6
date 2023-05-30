@@ -1,0 +1,48 @@
+canvas {
+    margin: 100px auto 0;
+    display: block;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.modal {
+    border: 2px solid #065011;
+    bottom: 60px;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(41, 236, 81, 0.64);
+}
+
+.game-over {
+    font-size: 60px;
+    font-family: "Comic Sans MS", sans-serif;
+    color: red;
+    -webkit-text-stroke: 2px black;
+}
+
+.points {
+    font-size: 40px;
+    font-family: "Comic Sans MS", sans-serif;
+}
+
+.play-again-button {
+    padding: 50px;
+    font-size: 30px;
+    font-family: "Comic Sans MS", sans-serif;
+    background-color: #0fcb37;
+    border: 6px solid #065011;
+    border-radius: 25px;
+    margin-top: 60px;
+    cursor: pointer;
+}
